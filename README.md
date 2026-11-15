@@ -2,11 +2,13 @@
 
 ## Codex AccountDeck
 
-A terminal dashboard for Codex accounts, quotas, expiring resets, and thread names.
+A terminal dashboard for Codex accounts, quotas, expiring resets, and local thread search, renaming and resume.
 
 ```bash
 brew install nerdworldDE/tap/codex-accountdeck
 codex-accountdeck
+codex-accountdeck --threads
+codex-accountdeck --demo
 ```
 
 Python is installed automatically. Codex CLI and Codex-Auth are separate prerequisites; see the [application README](https://github.com/nerdworldDE/codex-accountdeck#readme).
